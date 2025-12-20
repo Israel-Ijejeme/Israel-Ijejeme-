@@ -145,7 +145,7 @@ export const myProjects = [
     subdesc:
       'Built with PHP 8.4, MySQL 8.0, JavaScript and XAMPP for the server. Hosted for short period(event duration) on cPanel.',
     href: 'https://github.com/Israel-Ijejeme/event-ticket-system',
-    texture: '/textures/project/project-admin-dashboard.mp4',
+    texture: '/textures/project/project-admin-dashboard.webm',
     logo: '/assets/project-logo4.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
@@ -182,7 +182,7 @@ export const myProjects = [
     subdesc:
       'Secure multi-role portal with database integration for streamlined academic management.',
     href: 'https://github.com/Israel-Ijejeme/school-portal',
-    texture: '/textures/project/project-school-portal.webm',
+    texture: '/textures/project/project-school-portal.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
       backgroundColor: '#1C1A43',

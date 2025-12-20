@@ -6,16 +6,23 @@ import Contact from './sections/Contact.jsx';
 import Clients from './sections/Clients.jsx';
 import Projects from './sections/Projects.jsx';
 import WorkExperience from './sections/Experience.jsx';
+import ErrorBoundary from './components/ErrorBoundary.jsx';
 
 const App = () => {
   return (
     <main className="max-w-7xl mx-auto relative">
       <Navbar />
-      <Hero />
+      <ErrorBoundary>
+        <Hero />
+      </ErrorBoundary>
       <About />
-      <Projects />
+      <ErrorBoundary>
+        <Projects />
+      </ErrorBoundary>
       <Clients />
-      <WorkExperience />
+      <ErrorBoundary>
+        <WorkExperience />
+      </ErrorBoundary>
       <Contact />
       <Footer />
     </main>
