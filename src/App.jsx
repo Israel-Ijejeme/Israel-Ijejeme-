@@ -7,11 +7,13 @@ import Clients from './sections/Clients.jsx';
 import Projects from './sections/Projects.jsx';
 import WorkExperience from './sections/Experience.jsx';
 import ErrorBoundary from './components/ErrorBoundary.jsx';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   return (
     <main className="max-w-7xl mx-auto relative">
       <Navbar />
+      <Analytics />
       <ErrorBoundary>
         <Hero />
       </ErrorBoundary>
